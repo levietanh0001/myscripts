@@ -1,1 +1,21 @@
-installation https://cloudcone.com/docs/article/how-to-install-php-8-1-on-ubuntu-20-04-22-04/
+test php
+    sudo vi /usr/share/nginx/html/info.php
+    paste <?php phpinfo(); ?>
+    go to localhost/info.php to check
+    delete info.php for security
+        sudo rm /usr/share/nginx/html/info.php
+
+
+installation
+    https://www.linuxbabe.com/ubuntu/install-lemp-stack-ubuntu-20-04-server-desktop (best)
+    https://cloudcone.com/docs/article/how-to-install-php-8-1-on-ubuntu-20-04-22-04/
+
+
+check php status
+    systemctl status php7.4-fpm 
+
+enable php on startup
+    sudo systemctl enable php7.4-fpm
+
+start php
+    sudo systemctl start php7.4-fpm
