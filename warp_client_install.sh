@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-sudo apt install cloudflare-warp
-warp-cli register
-warp-cli connect
+# sudo apt install cloudflare-warp
+# warp-cli register
+# warp-cli connect
 
 
 # DOWNLOAD_DEST=~/Downloads # no trailing slash
