@@ -46,6 +46,3 @@ sudo systemctl status mariadb
 # echo 'slow-query-log = 1' | sudo tee /etc/mysql/my.cnf
 # echo 'slow-query-log-file = /var/lib/mysql/mysql-slow.log' | sudo tee /etc/mysql/my.cnf
 # echo 'long_query_time = 1 ' | sudo tee /etc/mysql/my.cnf
-
-
-## install phpmyadmin https://computingforgeeks.com/how-to-install-latest-phpmyadmin-on-ubuntu-debian/
